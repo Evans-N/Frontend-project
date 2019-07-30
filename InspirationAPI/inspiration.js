@@ -23,4 +23,9 @@ function updateQuote() {
 
 quoteButton.onclick = updateQuote;
 
+<<<<<<< HEAD
 updateQuote();
+=======
+updateQuote();
+
+>>>>>>> ff1ef1048d6e58f3244e908c21130e3aa815d881
