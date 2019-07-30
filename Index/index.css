@@ -50,3 +50,10 @@ a {
     height: 92%;
     width: 25%;
 }
+.stickman{
+    position: fixed;
+    bottom: 0%;
+    left: 85%;    
+
+
+}
