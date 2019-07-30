@@ -8,7 +8,7 @@ function sortUL(selector) {
 };
 function createQCard (questions, counter) {
     $('.category').html(`Category: ${questions[counter].category}`)
-    $('.difficulty').html(`Difficulty: ${questions[counter].difficulty}`)
+    $('.difficulty').html(`Difficulty: ${questions[counter].difficulty.toUpperCase()}`)
     $('.counter').html(`${counter+1}/10`)
     $('.question').html(`Question: ${questions[counter].question}`)
     $('.one').html(`${questions[counter].incorrect_answers[0]}`)
@@ -18,24 +18,62 @@ function createQCard (questions, counter) {
     sortUL('.answers')
 }
 const start = (e)=> {
+    $('.results').hide()
+    $('.result').hide()
     fetch('https://opentdb.com/api.php?amount=10&type=multiple')
     .then( res => res.json())
     .then(res => {
+        let correctCount=0
         let triviaIndex=0
         let currentQuestions = res.results
         createQCard (currentQuestions, triviaIndex)
         triviaIndex ++
         console.log(currentQuestions);
-        //creates a new event listener every time reset is clicked and breaks functionality
+        $('.answers').on('click', (e) => {
+            let $target = e.target
+            let $currentTarget = e.currentTarget
+            if($(e.target).is('.incorrect')){
+                $(".api").effect( "shake", {times:4}, 250 )
+                console.log('incorrect');
+            } 
+            if($(e.target).is('.correct')){
+                if($('.correct').css('color')==='rgb(0, 0, 0)'){
+                correctCount++
+                console.log(correctCount);
+                console.log('correct');
+                }
+            }
+            if (triviaIndex === 10) {
+                $('.result').show()
+                $('.result').on('click', function (event) {
+                    $('.results').html(`You got ${correctCount} out of 10`)
+                    $('.result').hide()
+                    $('.results').show()
+                    })
+            }
+            $('.incorrect').css('color','red')
+            $('.correct').css('color','green')
+        })
         $('.next').on('click', function (event) {
+            if (triviaIndex === 9) {
+                $('.next').hide()
+            }
+            $('li').css('color','black')
             createQCard(currentQuestions, triviaIndex)
             triviaIndex ++
             console.log(triviaIndex);
             })
+        $('.reset').on('click', function (event) {
+            $('li').css('color','black')
+            $('.reset').off()
+            $('.next').off()
+            $('.next').show()
+            $('.results').hide()
+            $('.result').off()
+            correctCount=0
+            start()
+        })
     })
 };
-$('.reset').on('click', function (event) {
-    start()
-    triviaIndex = 0
-    })
-    document.addEventListener('DOMContentLoaded', start);
+
+document.addEventListener('DOMContentLoaded', start);

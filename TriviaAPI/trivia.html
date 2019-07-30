@@ -8,7 +8,14 @@
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="./trivia.css">
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type = "text/javascript"
+    src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+ </script>
+   
+ <script type = "text/javascript" 
+    src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js">
+ </script>
+
     <title>Document</title>
 </head>
 <body>
@@ -22,29 +29,30 @@
         <a href="*"></a>
         <a href="*"></a>
     </nav>
-    <div class="container">
-        <div class='api'>
-            <div class='topper'>
+        <h1 class='results'></h1>
+        <section class='api'>
+            <section class='topper'>
                 <div class='category'></div>
                 <div class='difficulty'></div>
                 <div class='counter'></div>
-            </div>
-            <div class='content'>
+            </section>
+            <section class='content'>
                 <div class='question'></div>
                 <ul class='answers'>
-                    <li class="one"></li>
-                    <li class="two"></li>
-                    <li class="three"></li>
-                    <li class="four"></li>
+                    <li class="one incorrect" ></li>
+                    <li class="two incorrect"></li>
+                    <li class="three incorrect"></li>
+                    <li class="four correct"></li>
                 </ul>
-            </div>
-            <div class='bContainer'>
+            </section>
+            <section class='bContainer'>
                 <button class='reset'>Reset</button>
                 <button class='next'>Next</button>
-            </div>
-        </div>
-    </div>
 
+                <button class='result'>See Results</button>
+            </section>
+        </section>
+  
     <div id="jokeBox"></div>
     <button id="newJokeButton">Need a laugh?</button>
     
