@@ -201,7 +201,7 @@ data = [
     "id": 34,
     "type": "knock-knock",
     "setup": "Knock knock. \n Who\'s there? \n Opportunity.",
-    "punchline": "That is impossible. Opportunity doesn\’t come knocking twice!"
+    "punchline": "That is impossible. Opportunity doesn\'t come knocking twice!"
   },
   {
     "id": 35,
@@ -387,7 +387,7 @@ data = [
     "id": 65,
     "type": "general",
     "setup": "Well...",
-    "punchline": "That\’s a deep subject."
+    "punchline": "That\'s a deep subject."
   },
   {
     "id": 66,
@@ -495,7 +495,7 @@ data = [
     "id": 84,
     "type": "general",
     "setup": "Can I watch the TV?",
-    "punchline": "Yes, but don\’t turn it on."
+    "punchline": "Yes, but don\'t turn it on."
   },
   {
     "id": 85,
@@ -555,7 +555,7 @@ data = [
     "id": 94,
     "type": "general",
     "setup": "Did you hear about the new restaurant on the moon?",
-    "punchline": "The food is great, but there\’s just no atmosphere."
+    "punchline": "The food is great, but there\'s just no atmosphere."
   },
   {
     "id": 95,
@@ -597,7 +597,7 @@ data = [
     "id": 101,
     "type": "general",
     "setup": "Did you hear the news?",
-    "punchline": "FedEx and UPS are merging. They\’re going to go by the name Fed-Up from now on."
+    "punchline": "FedEx and UPS are merging. They\'re going to go by the name Fed-Up from now on."
   },
   {
     "id": 102,
@@ -758,7 +758,7 @@ data = [
   {
     "id": 128,
     "type": "general",
-    "setup": "How do you know if there\’s an elephant under your bed?",
+    "setup": "How do you know if there\'s an elephant under your bed?",
     "punchline": "Your head hits the ceiling!"
   },
   {
@@ -806,7 +806,7 @@ data = [
   {
     "id": 136,
     "type": "general",
-    "setup": "How does a penguin build it\’s house?",
+    "setup": "How does a penguin build it\'s house?",
     "punchline": "Igloos it together."
   },
   {
@@ -891,7 +891,7 @@ data = [
     "id": 150,
     "type": "general",
     "setup": "Is there a hole in your shoe?",
-    "punchline": "No… Then how\’d you get your foot in it?"
+    "punchline": "No… Then how\'d you get your foot in it?"
   },
   {
     "id": 151,
@@ -902,7 +902,7 @@ data = [
   {
     "id": 152,
     "type": "general",
-    "setup": "What\’s 50 Cent\’s name in Zimbabwe?",
+    "setup": "What\'s 50 Cent\'s name in Zimbabwe?",
     "punchline": "200 Dollars."
   },
   {
@@ -1059,7 +1059,7 @@ data = [
     "id": 187,
     "type": "general",
     "setup": "What did the late tomato say to the early tomato?",
-    "punchline": "I\’ll ketch up"
+    "punchline": "I\'ll ketch up"
   },
   {
     "id": 188,
@@ -1334,7 +1334,7 @@ data = [
   {
     "id": 232,
     "type": "general",
-    "setup": "What do you call an elephant that doesn\’t matter?",
+    "setup": "What do you call an elephant that doesn\'t matter?",
     "punchline": "An irrelephant."
   },
   {
@@ -1515,7 +1515,7 @@ data = [
     "id": 262,
     "type": "general",
     "setup": "What is the tallest building in the world?",
-    "punchline": "The library, it\’s got the most stories!"
+    "punchline": "The library, it\'s got the most stories!"
   },
   {
     "id": 263,
@@ -1604,7 +1604,7 @@ data = [
   {
     "id": 277,
     "type": "general",
-    "setup": "What was the pumpkin\’s favorite sport?",
+    "setup": "What was the pumpkin\'s favorite sport?",
     "punchline": "Squash."
   },
   {
@@ -1676,31 +1676,31 @@ data = [
   {
     "id": 289,
     "type": "general",
-    "setup": "What\’s brown and sounds like a bell?",
+    "setup": "What\'s brown and sounds like a bell?",
     "punchline": "Dung!"
   },
   {
     "id": 290,
     "type": "general",
-    "setup": "What\’s E.T. short for?",
-    "punchline": "He\’s only got little legs."
+    "setup": "What\'s E.T. short for?",
+    "punchline": "He\'s only got little legs."
   },
   {
     "id": 291,
     "type": "general",
-    "setup": "What\’s Forest Gump\’s Facebook password?",
+    "setup": "What\'s Forest Gump\'s Facebook password?",
     "punchline": "1forest1"
   },
   {
     "id": 292,
     "type": "general",
-    "setup": "What\’s the advantage of living in Switzerland?",
+    "setup": "What\'s the advantage of living in Switzerland?",
     "punchline": "Well, the flag is a big plus."
   },
   {
     "id": 293,
     "type": "general",
-    "setup": "What\’s the difference between an African elephant and an Indian elephant?",
+    "setup": "What\'s the difference between an African elephant and an Indian elephant?",
     "punchline": "About 5000 miles."
   },
   {
@@ -1790,8 +1790,8 @@ data = [
   {
     "id": 308,
     "type": "general",
-    "setup": "Where\’s the bin?",
-    "punchline": "I haven\’t been anywhere!"
+    "setup": "Where\'s the bin?",
+    "punchline": "I haven\'t been anywhere!"
   },
   {
     "id": 309,
@@ -1880,7 +1880,7 @@ data = [
   {
     "id": 323,
     "type": "general",
-    "setup": "Why can\’t you hear a pterodactyl go to the bathroom?",
+    "setup": "Why can\'t you hear a pterodactyl go to the bathroom?",
     "punchline": "The p is silent."
   },
   {
@@ -2060,13 +2060,13 @@ data = [
   {
     "id": 353,
     "type": "general",
-    "setup": "Why didn\’t the orange win the race?",
+    "setup": "Why didn\'t the orange win the race?",
     "punchline": "It ran out of juice."
   },
   {
     "id": 354,
     "type": "general",
-    "setup": "Why didn\’t the skeleton cross the road?",
+    "setup": "Why didn\'t the skeleton cross the road?",
     "punchline": "Because he had no guts."
   },
   {
@@ -2109,7 +2109,7 @@ data = [
     "id": 361,
     "type": "general",
     "setup": "Why do crabs never give to charity?",
-    "punchline": "Because they\’re shellfish."
+    "punchline": "Because they\'re shellfish."
   },
   {
     "id": 362,
@@ -2132,14 +2132,14 @@ data = [
   {
     "id": 365,
     "type": "general",
-    "setup": "Why do pumpkins sit on people\’s porches?",
+    "setup": "Why do pumpkins sit on people\'s porches?",
     "punchline": "They have no hands to knock on the door."
   },
   {
     "id": 366,
     "type": "general",
     "setup": "Why do scuba divers fall backwards into the water?",
-    "punchline": "Because if they fell forwards they\’d still be in the boat."
+    "punchline": "Because if they fell forwards they\'d still be in the boat."
   },
   {
     "id": 367,
@@ -2181,7 +2181,7 @@ data = [
     "id": 373,
     "type": "general",
     "setup": "Why does it take longer to get from 1st to 2nd base, than it does to get from 2nd to 3rd base?",
-    "punchline": "Because there\’s a Shortstop in between!"
+    "punchline": "Because there\'s a Shortstop in between!"
   },
   {
     "id": 374,
