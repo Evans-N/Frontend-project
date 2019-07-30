@@ -9,7 +9,6 @@ function* quoteGenerator() {
     		.then(res => res.json());
  	}
 }
-
 const generator = quoteGenerator();
 
 function updateQuote() {
@@ -20,8 +19,7 @@ function updateQuote() {
 		quoteButton.disabled = false;
 	});
 }
-
 quoteButton.onclick = updateQuote;
 
 updateQuote();
-
+updateQuote();

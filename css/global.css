@@ -50,3 +50,22 @@ a {
     height: 92%;
     width: 25%;
 }
+.stickmanModal img{
+    display:flex;
+    justify-content: flex-end;
+}
+.textOval{
+    position: relative;
+    top: 5%;
+    width: 20vw;
+    height: 10vh;
+    background: red;
+    border-radius: 50%;
+}
+.textTriangle{
+    position: relative;
+    left: 30%;
+    width: 0;
+    height: 0;
+    border-top: 5vh solid red;
+    border-left: 5vw solid transparent;
