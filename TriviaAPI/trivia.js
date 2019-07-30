@@ -75,4 +75,5 @@ const start = (e)=> {
         })
     })
 };
+
 document.addEventListener('DOMContentLoaded', start);
