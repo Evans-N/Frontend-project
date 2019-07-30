@@ -28,19 +28,15 @@ const start = (e)=> {
         let currentQuestions = res.results
         createQCard (currentQuestions, triviaIndex)
         triviaIndex ++
-        console.log(currentQuestions);
         $('.answers').on('click', (e) => {
             let $target = e.target
             let $currentTarget = e.currentTarget
             if($(e.target).is('.incorrect')){
                 $(".api").effect( "shake", {times:4}, 250 )
-                console.log('incorrect');
             } 
             if($(e.target).is('.correct')){
                 if($('.correct').css('color')==='rgb(0, 0, 0)'){
                 correctCount++
-                console.log(correctCount);
-                console.log('correct');
                 }
             }
             if (triviaIndex === 10) {
@@ -49,6 +45,7 @@ const start = (e)=> {
                     $('.results').html(`You got ${correctCount} out of 10`)
                     $('.result').hide()
                     $('.results').show()
+                    triviaIndex=0
                     })
             }
             $('.incorrect').css('color','red')
@@ -61,7 +58,6 @@ const start = (e)=> {
             $('li').css('color','black')
             createQCard(currentQuestions, triviaIndex)
             triviaIndex ++
-            console.log(triviaIndex);
             })
         $('.reset').on('click', function (event) {
             $('li').css('color','black')
