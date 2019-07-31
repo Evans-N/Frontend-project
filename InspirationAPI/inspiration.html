@@ -1,47 +1,60 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./inspiration.css">
-    <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="./inspiration.css">
-    <title>Get Inspired Fool</title>
-     
+    
     <script type = "text/javascript"
         src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+
     </script>
    
      <script type = "text/javascript" 
         src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js">
      </script>
     
+    <link rel="stylesheet" href="./inspiration.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <title>Document</title>
 </head>
 <body>
     <header>
-        <div class="logo"></div>
-        <div class="timer"></div>
+        <div class="logo">LOGO</div>
+        <div class="timer">12:00</div>
     </header>
-    <nav>
-        <a href="*"></a>
-        <a href="*"></a>
-        <a href="*"></a>
-        <a href="*"></a>
-    </nav>
-    <div class="container">
-        <h1>The Inspiration Corner</h1>
-        <div class="quoteContainer">
-        <section id='quote'></section>
-        <button id="get-quote">Inspire Me!</button>
+    <nav class="hover-underline-menu" data-menu-underline-from-center>
+        <ul class="menu align-center">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Random Game</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    <div class="content">
+        <div class="container">
+            <h1>The Inspiration Corner</h1>
+            <div class="quoteContainer">
+            <section class='quote'></section>
+            <button class="get-quote">Inspire Me!</button>
+            </div>
         </div>
     </div>
+    <section class="modal">
+
+        <div class="textBubbleContainer">
+            <div class="text-block" id="jokeBox">hello</div>
+        </div>
+        <img class="gary" src="../HTMLimages/Stick_figure.png" alt="Stickman named Gary">
+    </section>
+
     <div id="jokeBox"></div>
     <button id="newJokeButton">Need a laugh?</button>
-
+    
     <script src='../data/jokes.js'></script>
     <script src='../script/timer.js'></script>
     <script src='../script/joke.js'></script>
-    <script src='./inspiration.js'></script>
+    <script src="./inspiration.js"></script>
 </body>
 </html>
