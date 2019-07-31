@@ -4,3 +4,27 @@
 *,*::before, *::after{
     box-sizing: inherit;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../HTMLimages/ronSwanson.jpg');
+    margin: 5px;
+    width: 75vw;
+    height: 75vh;
+}
+.container h1{
+    display: flex;
+    justify-content: flex-end;
+}
+.container section{
+    display: flex;
+    justify-content: flex-end;
+}
+.container button{
+    display: flex;
+    justify-content: flex-end;
+}
