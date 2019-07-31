@@ -1,7 +1,9 @@
+$("[data-menu-underline-from-center] a").addClass("underline-from-center");
+
 'use strict';
 
-const quoteButton = document.body.querySelector('#get-quote');
-const quoteOutput = document.body.querySelector('#quote');
+const quoteButton = document.body.querySelector('.get-quote');
+const quoteOutput = document.body.querySelector('.quote');
 
 function* quoteGenerator() {
 	while (true) {
