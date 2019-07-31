@@ -10,7 +10,7 @@ $(function(){
             $jokeButton.html(`Need another?`)
 
         }else{
-             jokeIndex = Math.floor(Math.random()*367)
+             jokeIndex = Math.floor(Math.random()*data.length)
             $jokeBox.html(data[jokeIndex][`setup`])
             $jokeButton.html(`The Anwser`)
 
