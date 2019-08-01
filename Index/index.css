@@ -30,7 +30,7 @@ body {
     display:flex;
     flex-direction: row;
 }
-s
+
 a {
     text-decoration: none;
     font-size: 1.2rem;
@@ -124,6 +124,21 @@ header {
         border-radius: 10px;
 
     }
+    .menu > li {
+        z-index: 1;
+        display: flex;
+        background-color: #536B78;
+    }
+    .sticky-Top > div>img{
+        width:100%;
+        display:none;
+        flex-direction: row;
+    }
+    
+    .sticky-menu-dropdown {
+        display: none;
+        
+    }
     .menu> img {
         display:none
     }
@@ -139,6 +154,7 @@ header {
         padding-top: .9rem;
         border: 2px solid #72CC3F;
         border-radius: 10px;
+        width: 30vw;
 
     }
     .content {
