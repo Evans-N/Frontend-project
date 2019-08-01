@@ -1,6 +1,13 @@
 body {
     background-color: #CEDADD;
 }
+.logoBox {
+    width: 40%;
+}
+.logoI {
+ max-width: 100%;
+ height: auto;
+}
 .hover-underline-menu {
     width: 100%;
   }

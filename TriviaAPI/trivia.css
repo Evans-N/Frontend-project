@@ -8,8 +8,12 @@
 body {
     background-color: #CEDADD;
 }
-.logo {
+.logoBox {
     width: 40%;
+}
+.logoI {
+ max-width: 100%;
+ height: auto;
 }
 .hover-underline-menu {
     width: 100%;
