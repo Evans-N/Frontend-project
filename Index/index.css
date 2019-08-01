@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+:root{
+    box-sizing: border-box;
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+>>>>>>> b6503e6e5cac2cc74b14782673b58d249dae2771
 body {
     background-color: #CEDADD;
 }
@@ -78,3 +86,4 @@ header {
     border-radius: 10px;
     margin: auto;
 }
+

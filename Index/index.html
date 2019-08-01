@@ -15,7 +15,7 @@
         src = "https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js">
      </script>
     
-    <!-- <link rel="stylesheet" href="../css/global.css"> -->
+    <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="./index.css">
     <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
     <title>Document</title>
@@ -23,7 +23,7 @@
 <body>
     <header>
         <div class="logo">LOGO</div>
-        <div class="timer">12:00</div>
+        <div class="timer" id="timer">12:00</div>
     </header>
     <nav class="hover-underline-menu" data-menu-underline-from-center>
         <ul class="menu align-center">
@@ -39,14 +39,15 @@
 
     <section class="modal">
 
-        <div class="textBubbleContainer">
-            <div class="text-block" id="jokeBox">hello</div>
+        <div class="textBubbleContainer hidden" id="jokeCont">
+                <div class="textbox" id="jokeBox"></div>
+            
         </div>
-        <img class="gary" src="../HTMLimages/Stick_figure.png" alt="Stickman named Gary">
+        <div id="newJokeButton" class="garyCont">
+            <img class="gary" src="../HTMLimages/Stick_figure.png" alt="Stickman named Gary">
+        </div>
     </section>
 
-    <div id="jokeBox"></div>
-    <button id="newJokeButton">Need a laugh?</button>
     
     <script src='../data/jokes.js'></script>
     <script src='../script/timer.js'></script>
