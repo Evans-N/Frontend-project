@@ -1,0 +1,51 @@
+.modal{
+    order: 4;
+    display:flex;
+    position: fixed;
+    top: 75%;
+    left:85%;
+    justify-content: flex-end;
+    border: 1px solid black;
+    /* padding: 10rem; */
+}
+
+.textBubbleContainer{
+    
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    bottom: 8rem;
+    left:  4rem;
+    border-radius: 50%;
+    /* z-index: 9; */
+    padding: 2rem;
+    background-image: url("../HTMLimages/bubble.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    
+    max-width: 20vw;
+    width: auto;
+    
+}
+.textBubbleContainer.hidden{
+    
+    display: none;
+    
+}
+
+  .textbox{
+      position: relative;
+      /* right: .5rem;
+      top: .5rem; */
+      height: auto;
+      /* padding: 2rem; */
+      padding-bottom: .25rem;
+        text-align: center;
+  }
+  .garyCont{
+      position: fixed;
+      z-index: 5;
+  }
+

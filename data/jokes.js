@@ -1,4 +1,6 @@
-[
+// you can add jokes here just keep the same format
+
+data = [
   {
     "id": 1,
     "type": "general",
@@ -14,7 +16,7 @@
   {
     "id": 3,
     "type": "general",
-    "setup": "What's Forrest Gump's password?",
+    "setup": "What\'s Forrest Gump\'s password?",
     "punchline": "1Forrest1"
   },
   {
@@ -26,7 +28,7 @@
   {
     "id": 5,
     "type": "general",
-    "setup": "Why can't bicycles stand on their own?",
+    "setup": "Why can\'t bicycles stand on their own?",
     "punchline": "They are two tired"
   },
   {
@@ -62,37 +64,37 @@
   {
     "id": 11,
     "type": "general",
-    "setup": "What's the best time to go to the dentist?",
+    "setup": "What\'s the best time to go to the dentist?",
     "punchline": "Tooth hurty."
   },
   {
     "id": 12,
     "type": "knock-knock",
-    "setup": "Knock knock. \n Who's there? \n A broken pencil. \n A broken pencil who?",
-    "punchline": "Never mind. It's pointless."
+    "setup": "Knock knock. \n Who\'s there? \n A broken pencil. \n A broken pencil who?",
+    "punchline": "Never mind. It\'s pointless."
   },
   {
     "id": 13,
     "type": "knock-knock",
-    "setup": "Knock knock. \n Who's there? \n Cows go. \n Cows go who?",
+    "setup": "Knock knock. \n Who\'s there? \n Cows go. \n Cows go who?",
     "punchline": "No, cows go moo."
   },
   {
     "id": 14,
     "type": "knock-knock",
-    "setup": "Knock knock. \n Who's there? \n Little old lady. \n Little old lady who?",
-    "punchline": "I didn't know you could yodel!"
+    "setup": "Knock knock. \n Who\'s there? \n Little old lady. \n Little old lady who?",
+    "punchline": "I didn\'t know you could yodel!"
   },
   {
     "id": 15,
     "type": "programming",
-    "setup": "What's the best thing about a Boolean?",
-    "punchline": "Even if you're wrong, you're only off by a bit."
+    "setup": "What\'s the best thing about a Boolean?",
+    "punchline": "Even if you\'re wrong, you\'re only off by a bit."
   },
   {
     "id": 16,
     "type": "programming",
-    "setup": "What's the object-oriented way to become wealthy?",
+    "setup": "What\'s the object-oriented way to become wealthy?",
     "punchline": "Inheritance"
   },
   {
@@ -105,7 +107,7 @@
     "id": 18,
     "type": "programming",
     "setup": "Why did the programmer quit his job?",
-    "punchline": "Because he didn't get arrays."
+    "punchline": "Because he didn\'t get arrays."
   },
   {
     "id": 19,
@@ -123,7 +125,7 @@
     "id": 21,
     "type": "general",
     "setup": "A termite walks into a bar and says...",
-    "punchline": "'Where is the bar tended?'"
+    "punchline": "\'Where is the bar tended?\'"
   },
   {
     "id": 22,
@@ -141,13 +143,13 @@
     "id": 24,
     "type": "programming",
     "setup": "A SQL query walks into a bar, walks up to two tables and asks...",
-    "punchline": "'Can I join you?'"
+    "punchline": "\'Can I join you?\'"
   },
   {
     "id": 25,
     "type": "programming",
     "setup": "How many programmers does it take to change a lightbulb?",
-    "punchline": "None that's a hardware problem"
+    "punchline": "None that\'s a hardware problem"
   },
   {
     "id": 26,
@@ -158,7 +160,7 @@
   {
     "id": 27,
     "type": "programming",
-    "setup": "['hip', 'hip']",
+    "setup": "[\'hip\', \'hip\']",
     "punchline": "(hip hip array)"
   },
   {
@@ -171,7 +173,7 @@
     "id": 29,
     "type": "programming",
     "setup": "There are 10 types of people in this world...",
-    "punchline": "Those who understand binary and those who don't"
+    "punchline": "Those who understand binary and those who don\'t"
   },
   {
     "id": 30,
@@ -182,32 +184,32 @@
   {
     "id": 31,
     "type": "general",
-    "setup": "What happens to a frog's car when it breaks down?",
+    "setup": "What happens to a frog\'s car when it breaks down?",
     "punchline": "It gets toad away"
   },
   {
     "id": 32,
     "type": "general",
-    "setup": "did you know the first French fries weren't cooked in France?",
+    "setup": "did you know the first French fries weren\'t cooked in France?",
     "punchline": "they were cooked in Greece"
   },
   {
     "id": 33,
     "type": "programming",
     "setup": "Which song would an exception sing?",
-    "punchline": "Can't catch me - Avicii"
+    "punchline": "Can\'t catch me - Avicii"
   },
   {
     "id": 34,
     "type": "knock-knock",
-    "setup": "Knock knock. \n Who's there? \n Opportunity.",
-    "punchline": "That is impossible. Opportunity doesn’t come knocking twice!"
+    "setup": "Knock knock. \n Who\'s there? \n Opportunity.",
+    "punchline": "That is impossible. Opportunity doesn\'t come knocking twice!"
   },
   {
     "id": 35,
     "type": "programming",
     "setup": "Why do Java programmers wear glasses?",
-    "punchline": "Because they don't C#"
+    "punchline": "Because they don\'t C#"
   },
   {
     "id": 36,
@@ -224,20 +226,20 @@
   {
     "id": 38,
     "type": "general",
-    "setup": "I'm reading a book about anti-gravity...",
-    "punchline": "It's impossible to put down"
+    "setup": "I\'m reading a book about anti-gravity...",
+    "punchline": "It\'s impossible to put down"
   },
   {
     "id": 39,
     "type": "general",
-    "setup": "If you're American when you go into the bathroom, and American when you come out, what are you when you're in there?",
+    "setup": "If you\'re American when you go into the bathroom, and American when you come out, what are you when you\'re in there?",
     "punchline": "European"
   },
   {
     "id": 40,
     "type": "general",
     "setup": "Want to hear a joke about a piece of paper?",
-    "punchline": "Never mind...it's tearable"
+    "punchline": "Never mind...it\'s tearable"
   },
   {
     "id": 41,
@@ -255,7 +257,7 @@
     "id": 43,
     "type": "general",
     "setup": "A ham sandwhich walks into a bar and orders a beer. The bartender says...",
-    "punchline": "I'm sorry, we don't serve food here"
+    "punchline": "I\'m sorry, we don\'t serve food here"
   },
   {
     "id": 44,
@@ -278,14 +280,14 @@
   {
     "id": 47,
     "type": "general",
-    "setup": "Don't look at the eclipse through a colander.",
-    "punchline": "You'll strain your eyes."
+    "setup": "Don\'t look at the eclipse through a colander.",
+    "punchline": "You\'ll strain your eyes."
   },
   {
     "id": 48,
     "type": "general",
     "setup": "I bought some shoes from a drug dealer.",
-    "punchline": "I don't know what he laced them with, but I was tripping all day!"
+    "punchline": "I don\'t know what he laced them with, but I was tripping all day!"
   },
   {
     "id": 49,
@@ -302,14 +304,14 @@
   {
     "id": 51,
     "type": "general",
-    "setup": "When a dad drives past a graveyard: Did you know that's a popular cemetery?",
+    "setup": "When a dad drives past a graveyard: Did you know that\'s a popular cemetery?",
     "punchline": "Yep, people are just dying to get in there"
   },
   {
     "id": 52,
     "type": "general",
     "setup": "Why did the invisible man turn down the job offer?",
-    "punchline": "He couldn't see himself doing it"
+    "punchline": "He couldn\'t see himself doing it"
   },
   {
     "id": 53,
@@ -362,7 +364,7 @@
   {
     "id": 61,
     "type": "knock-knock",
-    "setup": "Knock knock. \n Who's there? \n Hatch. \n Hatch who?",
+    "setup": "Knock knock. \n Who\'s there? \n Hatch. \n Hatch who?",
     "punchline": "Bless you!"
   },
   {
@@ -387,7 +389,7 @@
     "id": 65,
     "type": "general",
     "setup": "Well...",
-    "punchline": "That’s a deep subject."
+    "punchline": "That\'s a deep subject."
   },
   {
     "id": 66,
@@ -410,19 +412,19 @@
   {
     "id": 69,
     "type": "general",
-    "setup": "I Got Hit In the Head By A Soda Can, But It Didn't Hurt That Much...",
+    "setup": "I Got Hit In the Head By A Soda Can, But It Didn\'t Hurt That Much...",
     "punchline": "It was a soft drink."
   },
   {
     "id": 70,
     "type": "general",
-    "setup": "I Can't Tell If I Like This Blender...",
+    "setup": "I Can\'t Tell If I Like This Blender...",
     "punchline": "It keeps giving me mixed results."
   },
   {
     "id": 71,
     "type": "general",
-    "setup": "WI Couldn't Get A Reservation At The Library...",
+    "setup": "WI Couldn\'t Get A Reservation At The Library...",
     "punchline": "They were fully booked."
   },
   {
@@ -465,12 +467,12 @@
     "id": 79,
     "type": "general",
     "setup": "What time is it?",
-    "punchline": "I don't know... it keeps changing."
+    "punchline": "I don\'t know... it keeps changing."
   },
   {
     "id": 80,
     "type": "general",
-    "setup": "A weasel walks into a bar. The bartender says, \"Wow, I've never served a weasel before. What can I get for you?\"",
+    "setup": "A weasel walks into a bar. The bartender says, \"Wow, I\'ve never served a weasel before. What can I get for you?\"",
     "punchline": "Pop,goes the weasel."
   },
   {
@@ -483,7 +485,7 @@
     "id": 82,
     "type": "general",
     "setup": "Can a kangaroo jump higher than the Empire State Building?",
-    "punchline": "Of course. The Empire State Building can't jump."
+    "punchline": "Of course. The Empire State Building can\'t jump."
   },
   {
     "id": 83,
@@ -495,13 +497,13 @@
     "id": 84,
     "type": "general",
     "setup": "Can I watch the TV?",
-    "punchline": "Yes, but don’t turn it on."
+    "punchline": "Yes, but don\'t turn it on."
   },
   {
     "id": 85,
     "type": "general",
     "setup": "Dad, can you put my shoes on?",
-    "punchline": "I don't think they'll fit me."
+    "punchline": "I don\'t think they\'ll fit me."
   },
   {
     "id": 86,
@@ -512,7 +514,7 @@
   {
     "id": 87,
     "type": "general",
-    "setup": "Did you hear about the chameleon who couldn't change color?",
+    "setup": "Did you hear about the chameleon who couldn\'t change color?",
     "punchline": "They had a reptile dysfunction."
   },
   {
@@ -537,13 +539,13 @@
     "id": 91,
     "type": "general",
     "setup": "Did you hear about the guy whose whole left side was cut off?",
-    "punchline": "He's all right now."
+    "punchline": "He\'s all right now."
   },
   {
     "id": 92,
     "type": "general",
     "setup": "Did you hear about the kidnapping at school?",
-    "punchline": "It's ok, he woke up."
+    "punchline": "It\'s ok, he woke up."
   },
   {
     "id": 93,
@@ -555,7 +557,7 @@
     "id": 94,
     "type": "general",
     "setup": "Did you hear about the new restaurant on the moon?",
-    "punchline": "The food is great, but there’s just no atmosphere."
+    "punchline": "The food is great, but there\'s just no atmosphere."
   },
   {
     "id": 95,
@@ -597,7 +599,7 @@
     "id": 101,
     "type": "general",
     "setup": "Did you hear the news?",
-    "punchline": "FedEx and UPS are merging. They’re going to go by the name Fed-Up from now on."
+    "punchline": "FedEx and UPS are merging. They\'re going to go by the name Fed-Up from now on."
   },
   {
     "id": 102,
@@ -621,7 +623,7 @@
     "id": 105,
     "type": "general",
     "setup": "Did you know that protons have mass?",
-    "punchline": "I didn't even know they were catholic."
+    "punchline": "I didn\'t even know they were catholic."
   },
   {
     "id": 106,
@@ -645,13 +647,13 @@
     "id": 109,
     "type": "general",
     "setup": "Do you want a brief explanation of what an acorn is?",
-    "punchline": "In a nutshell, it's an oak tree."
+    "punchline": "In a nutshell, it\'s an oak tree."
   },
   {
     "id": 110,
     "type": "general",
     "setup": "Ever wondered why bees hum?",
-    "punchline": "It's because they don't know the words."
+    "punchline": "It\'s because they don\'t know the words."
   },
   {
     "id": 111,
@@ -663,13 +665,13 @@
     "id": 112,
     "type": "general",
     "setup": "Have you heard of the band 1023MB?",
-    "punchline": "They haven't got a gig yet."
+    "punchline": "They haven\'t got a gig yet."
   },
   {
     "id": 113,
     "type": "general",
     "setup": "Have you heard the rumor going around about butter?",
-    "punchline": "Never mind, I shouldn't spread it."
+    "punchline": "Never mind, I shouldn\'t spread it."
   },
   {
     "id": 114,
@@ -716,7 +718,7 @@
   {
     "id": 121,
     "type": "general",
-    "setup": "How do locomotives know where they're going?",
+    "setup": "How do locomotives know where they\'re going?",
     "punchline": "Lots of training"
   },
   {
@@ -758,7 +760,7 @@
   {
     "id": 128,
     "type": "general",
-    "setup": "How do you know if there’s an elephant under your bed?",
+    "setup": "How do you know if there\'s an elephant under your bed?",
     "punchline": "Your head hits the ceiling!"
   },
   {
@@ -806,7 +808,7 @@
   {
     "id": 136,
     "type": "general",
-    "setup": "How does a penguin build it’s house?",
+    "setup": "How does a penguin build it\'s house?",
     "punchline": "Igloos it together."
   },
   {
@@ -837,13 +839,13 @@
     "id": 141,
     "type": "general",
     "setup": "How many hipsters does it take to change a lightbulb?",
-    "punchline": "Oh, it's a really obscure number. You've probably never heard of it."
+    "punchline": "Oh, it\'s a really obscure number. You\'ve probably never heard of it."
   },
   {
     "id": 142,
     "type": "general",
     "setup": "How many kids with ADD does it take to change a lightbulb?",
-    "punchline": "Let's go ride bikes!"
+    "punchline": "Let\'s go ride bikes!"
   },
   {
     "id": 143,
@@ -891,7 +893,7 @@
     "id": 150,
     "type": "general",
     "setup": "Is there a hole in your shoe?",
-    "punchline": "No… Then how’d you get your foot in it?"
+    "punchline": "No… Then how\'d you get your foot in it?"
   },
   {
     "id": 151,
@@ -902,26 +904,26 @@
   {
     "id": 152,
     "type": "general",
-    "setup": "What’s 50 Cent’s name in Zimbabwe?",
+    "setup": "What\'s 50 Cent\'s name in Zimbabwe?",
     "punchline": "200 Dollars."
   },
   {
     "id": 153,
     "type": "general",
     "setup": "Want to hear a chimney joke?",
-    "punchline": "Got stacks of em! First one's on the house"
+    "punchline": "Got stacks of em! First one\'s on the house"
   },
   {
     "id": 154,
     "type": "general",
     "setup": "Want to hear a joke about construction?",
-    "punchline": "Nah, I'm still working on it."
+    "punchline": "Nah, I\'m still working on it."
   },
   {
     "id": 155,
     "type": "general",
     "setup": "Want to hear my pizza joke?",
-    "punchline": "Never mind, it's too cheesy."
+    "punchline": "Never mind, it\'s too cheesy."
   },
   {
     "id": 156,
@@ -957,7 +959,7 @@
     "id": 161,
     "type": "general",
     "setup": "What did celery say when he broke up with his girlfriend?",
-    "punchline": "She wasn't right for me, so I really don't carrot all."
+    "punchline": "She wasn\'t right for me, so I really don\'t carrot all."
   },
   {
     "id": 162,
@@ -969,7 +971,7 @@
     "id": 163,
     "type": "general",
     "setup": "What did one nut say as he chased another nut?",
-    "punchline": " I'm a cashew!"
+    "punchline": " I\'m a cashew!"
   },
   {
     "id": 164,
@@ -987,7 +989,7 @@
     "id": 166,
     "type": "general",
     "setup": "What did one wall say to the other wall?",
-    "punchline": "I'll meet you at the corner!"
+    "punchline": "I\'ll meet you at the corner!"
   },
   {
     "id": 167,
@@ -1005,7 +1007,7 @@
     "id": 169,
     "type": "general",
     "setup": "What did the beaver say to the tree?",
-    "punchline": "It's been nice gnawing you."
+    "punchline": "It\'s been nice gnawing you."
   },
   {
     "id": 170,
@@ -1059,7 +1061,7 @@
     "id": 187,
     "type": "general",
     "setup": "What did the late tomato say to the early tomato?",
-    "punchline": "I’ll ketch up"
+    "punchline": "I\'ll ketch up"
   },
   {
     "id": 188,
@@ -1088,8 +1090,8 @@
   {
     "id": 191,
     "type": "general",
-    "setup": "Why don't you find hippopotamuses hiding in trees?",
-    "punchline": "They're really good at it."
+    "setup": "Why don\'t you find hippopotamuses hiding in trees?",
+    "punchline": "They\'re really good at it."
   },
   {
     "id": 192,
@@ -1101,7 +1103,7 @@
     "id": 193,
     "type": "general",
     "setup": "What did the Red light say to the Green light?",
-    "punchline": "Don't look at me I'm changing!"
+    "punchline": "Don\'t look at me I\'m changing!"
   },
   {
     "id": 194,
@@ -1119,7 +1121,7 @@
     "id": 196,
     "type": "general",
     "setup": "What did the traffic light say to the car as it passed?",
-    "punchline": "Don't look I'm changing!"
+    "punchline": "Don\'t look I\'m changing!"
   },
   {
     "id": 197,
@@ -1166,7 +1168,7 @@
   {
     "id": 204,
     "type": "general",
-    "setup": "What do you call a boomerang that won't come back?",
+    "setup": "What do you call a boomerang that won\'t come back?",
     "punchline": "A stick."
   },
   {
@@ -1226,7 +1228,7 @@
   {
     "id": 214,
     "type": "general",
-    "setup": "What do you call a duck that gets all A's?",
+    "setup": "What do you call a duck that gets all A\'s?",
     "punchline": "A wise quacker."
   },
   {
@@ -1334,7 +1336,7 @@
   {
     "id": 232,
     "type": "general",
-    "setup": "What do you call an elephant that doesn’t matter?",
+    "setup": "What do you call an elephant that doesn\'t matter?",
     "punchline": "An irrelephant."
   },
   {
@@ -1418,7 +1420,7 @@
   {
     "id": 246,
     "type": "general",
-    "setup": "What does a clock do when it's hungry?",
+    "setup": "What does a clock do when it\'s hungry?",
     "punchline": "It goes back four seconds!"
   },
   {
@@ -1442,7 +1444,7 @@
   {
     "id": 250,
     "type": "general",
-    "setup": "What happens to a frog's car when it breaks down?",
+    "setup": "What happens to a frog\'s car when it breaks down?",
     "punchline": "It gets toad."
   },
   {
@@ -1460,25 +1462,25 @@
   {
     "id": 253,
     "type": "general",
-    "setup": "What is a centipedes's favorite Beatle song?",
+    "setup": "What is a centipedes\'s favorite Beatle song?",
     "punchline": " I want to hold your hand, hand, hand, hand..."
   },
   {
     "id": 254,
     "type": "general",
-    "setup": "What is a tornado's favorite game to play?",
+    "setup": "What is a tornado\'s favorite game to play?",
     "punchline": "Twister!"
   },
   {
     "id": 255,
     "type": "general",
-    "setup": "What is a vampire's favorite fruit?",
+    "setup": "What is a vampire\'s favorite fruit?",
     "punchline": "A blood orange."
   },
   {
     "id": 256,
     "type": "general",
-    "setup": "What is a witch's favorite subject in school?",
+    "setup": "What is a witch\'s favorite subject in school?",
     "punchline": "Spelling!"
   },
   {
@@ -1491,7 +1493,7 @@
     "id": 258,
     "type": "general",
     "setup": "What is the difference between ignorance and apathy?",
-    "punchline": "I don't know and I don't care."
+    "punchline": "I don\'t know and I don\'t care."
   },
   {
     "id": 259,
@@ -1515,7 +1517,7 @@
     "id": 262,
     "type": "general",
     "setup": "What is the tallest building in the world?",
-    "punchline": "The library, it’s got the most stories!"
+    "punchline": "The library, it\'s got the most stories!"
   },
   {
     "id": 263,
@@ -1604,103 +1606,103 @@
   {
     "id": 277,
     "type": "general",
-    "setup": "What was the pumpkin’s favorite sport?",
+    "setup": "What was the pumpkin\'s favorite sport?",
     "punchline": "Squash."
   },
   {
     "id": 278,
     "type": "general",
-    "setup": "What's black and white and read all over?",
+    "setup": "What\'s black and white and read all over?",
     "punchline": "The newspaper."
   },
   {
     "id": 279,
     "type": "general",
-    "setup": "What's blue and not very heavy?",
+    "setup": "What\'s blue and not very heavy?",
     "punchline": " Light blue."
   },
   {
     "id": 280,
     "type": "general",
-    "setup": "What's brown and sticky?",
+    "setup": "What\'s brown and sticky?",
     "punchline": "A stick."
   },
   {
     "id": 281,
     "type": "general",
-    "setup": "What's orange and sounds like a parrot?",
+    "setup": "What\'s orange and sounds like a parrot?",
     "punchline": "A Carrot."
   },
   {
     "id": 282,
     "type": "general",
-    "setup": "What's red and bad for your teeth?",
+    "setup": "What\'s red and bad for your teeth?",
     "punchline": "A Brick."
   },
   {
     "id": 283,
     "type": "general",
-    "setup": "What's the best thing about elevator jokes?",
+    "setup": "What\'s the best thing about elevator jokes?",
     "punchline": "They work on so many levels."
   },
   {
     "id": 284,
     "type": "general",
-    "setup": "What's the difference between a guitar and a fish?",
-    "punchline": "You can tune a guitar but you can't \"tuna\"fish!"
+    "setup": "What\'s the difference between a guitar and a fish?",
+    "punchline": "You can tune a guitar but you can\'t \"tuna\"fish!"
   },
   {
     "id": 285,
     "type": "general",
-    "setup": "What's the difference between a hippo and a zippo?",
+    "setup": "What\'s the difference between a hippo and a zippo?",
     "punchline": "One is really heavy, the other is a little lighter."
   },
   {
     "id": 286,
     "type": "general",
-    "setup": "What's the difference between a seal and a sea lion?",
+    "setup": "What\'s the difference between a seal and a sea lion?",
     "punchline": "An ion! "
   },
   {
     "id": 287,
     "type": "general",
-    "setup": "What's the worst part about being a cross-eyed teacher?",
-    "punchline": "They can't control their pupils."
+    "setup": "What\'s the worst part about being a cross-eyed teacher?",
+    "punchline": "They can\'t control their pupils."
   },
   {
     "id": 288,
     "type": "general",
-    "setup": "What's the worst thing about ancient history class?",
+    "setup": "What\'s the worst thing about ancient history class?",
     "punchline": "The teachers tend to Babylon."
   },
   {
     "id": 289,
     "type": "general",
-    "setup": "What’s brown and sounds like a bell?",
+    "setup": "What\'s brown and sounds like a bell?",
     "punchline": "Dung!"
   },
   {
     "id": 290,
     "type": "general",
-    "setup": "What’s E.T. short for?",
-    "punchline": "He’s only got little legs."
+    "setup": "What\'s E.T. short for?",
+    "punchline": "He\'s only got little legs."
   },
   {
     "id": 291,
     "type": "general",
-    "setup": "What’s Forest Gump’s Facebook password?",
+    "setup": "What\'s Forest Gump\'s Facebook password?",
     "punchline": "1forest1"
   },
   {
     "id": 292,
     "type": "general",
-    "setup": "What’s the advantage of living in Switzerland?",
+    "setup": "What\'s the advantage of living in Switzerland?",
     "punchline": "Well, the flag is a big plus."
   },
   {
     "id": 293,
     "type": "general",
-    "setup": "What’s the difference between an African elephant and an Indian elephant?",
+    "setup": "What\'s the difference between an African elephant and an Indian elephant?",
     "punchline": "About 5000 miles."
   },
   {
@@ -1719,7 +1721,7 @@
     "id": 296,
     "type": "general",
     "setup": "When is a door not a door?",
-    "punchline": "When it's ajar."
+    "punchline": "When it\'s ajar."
   },
   {
     "id": 297,
@@ -1790,8 +1792,8 @@
   {
     "id": 308,
     "type": "general",
-    "setup": "Where’s the bin?",
-    "punchline": "I haven’t been anywhere!"
+    "setup": "Where\'s the bin?",
+    "punchline": "I haven\'t been anywhere!"
   },
   {
     "id": 309,
@@ -1839,7 +1841,7 @@
     "id": 316,
     "type": "general",
     "setup": "Why are mummys scared of vacation?",
-    "punchline": "They're afraid to unwind."
+    "punchline": "They\'re afraid to unwind."
   },
   {
     "id": 317,
@@ -1862,37 +1864,37 @@
   {
     "id": 320,
     "type": "general",
-    "setup": "Why can't a bicycle stand on its own?",
-    "punchline": "It's two-tired."
+    "setup": "Why can\'t a bicycle stand on its own?",
+    "punchline": "It\'s two-tired."
   },
   {
     "id": 321,
     "type": "general",
-    "setup": "Why can't you use \"Beef stew\"as a password?",
-    "punchline": "Because it's not stroganoff."
+    "setup": "Why can\'t you use \"Beef stew\"as a password?",
+    "punchline": "Because it\'s not stroganoff."
   },
   {
     "id": 322,
     "type": "general",
-    "setup": "Why can't your nose be 12 inches long?",
-    "punchline": "Because then it'd be a foot!"
+    "setup": "Why can\'t your nose be 12 inches long?",
+    "punchline": "Because then it\'d be a foot!"
   },
   {
     "id": 323,
     "type": "general",
-    "setup": "Why can’t you hear a pterodactyl go to the bathroom?",
+    "setup": "Why can\'t you hear a pterodactyl go to the bathroom?",
     "punchline": "The p is silent."
   },
   {
     "id": 324,
     "type": "general",
-    "setup": "Why couldn't the kid see the pirate movie?",
+    "setup": "Why couldn\'t the kid see the pirate movie?",
     "punchline": "Because it was rated arrr!"
   },
   {
     "id": 325,
     "type": "general",
-    "setup": "Why couldn't the lifeguard save the hippie?",
+    "setup": "Why couldn\'t the lifeguard save the hippie?",
     "punchline": "He was too far out, man."
   },
   {
@@ -1941,7 +1943,7 @@
     "id": 333,
     "type": "general",
     "setup": "Why did the Clydesdale give the pony a glass of water?",
-    "punchline": " Because he was a little horse!"
+    "punchline": "Because he was a little horse!"
   },
   {
     "id": 334,
@@ -1983,7 +1985,7 @@
     "id": 340,
     "type": "general",
     "setup": "Why did the half blind man fall in the well?",
-    "punchline": "Because he couldn't see that well!"
+    "punchline": "Because he couldn\'t see that well!"
   },
   {
     "id": 341,
@@ -2054,19 +2056,19 @@
   {
     "id": 352,
     "type": "general",
-    "setup": "Why didn't the number 4 get into the nightclub?",
+    "setup": "Why didn\'t the number 4 get into the nightclub?",
     "punchline": "Because he is 2 square."
   },
   {
     "id": 353,
     "type": "general",
-    "setup": "Why didn’t the orange win the race?",
+    "setup": "Why didn\'t the orange win the race?",
     "punchline": "It ran out of juice."
   },
   {
     "id": 354,
     "type": "general",
-    "setup": "Why didn’t the skeleton cross the road?",
+    "setup": "Why didn\'t the skeleton cross the road?",
     "punchline": "Because he had no guts."
   },
   {
@@ -2091,13 +2093,13 @@
     "id": 358,
     "type": "general",
     "setup": "Why do bees hum?",
-    "punchline": "Because they don't know the words."
+    "punchline": "Because they don\'t know the words."
   },
   {
     "id": 359,
     "type": "general",
     "setup": "Why do birds fly south for the winter?",
-    "punchline": "Because it's too far to walk."
+    "punchline": "Because it\'s too far to walk."
   },
   {
     "id": 360,
@@ -2109,7 +2111,7 @@
     "id": 361,
     "type": "general",
     "setup": "Why do crabs never give to charity?",
-    "punchline": "Because they’re shellfish."
+    "punchline": "Because they\'re shellfish."
   },
   {
     "id": 362,
@@ -2121,7 +2123,7 @@
     "id": 363,
     "type": "general",
     "setup": "Why do mathematicians hate the U.S.?",
-    "punchline": "Because it's indivisible."
+    "punchline": "Because it\'s indivisible."
   },
   {
     "id": 364,
@@ -2132,26 +2134,26 @@
   {
     "id": 365,
     "type": "general",
-    "setup": "Why do pumpkins sit on people’s porches?",
+    "setup": "Why do pumpkins sit on people\'s porches?",
     "punchline": "They have no hands to knock on the door."
   },
   {
     "id": 366,
     "type": "general",
     "setup": "Why do scuba divers fall backwards into the water?",
-    "punchline": "Because if they fell forwards they’d still be in the boat."
+    "punchline": "Because if they fell forwards they\'d still be in the boat."
   },
   {
     "id": 367,
     "type": "general",
     "setup": "Why do trees seem suspicious on sunny days?",
-    "punchline": "Dunno, they're just a bit shady."
+    "punchline": "Dunno, they\'re just a bit shady."
   },
   {
     "id": 368,
     "type": "general",
     "setup": "Why do valley girls hang out in odd numbered groups?",
-    "punchline": "Because they can't even."
+    "punchline": "Because they can\'t even."
   },
   {
     "id": 369,
@@ -2163,7 +2165,7 @@
     "id": 370,
     "type": "general",
     "setup": "Why do you never see elephants hiding in trees?",
-    "punchline": "Because they're so good at it."
+    "punchline": "Because they\'re so good at it."
   },
   {
     "id": 371,
@@ -2175,13 +2177,13 @@
     "id": 372,
     "type": "general",
     "setup": "Why does a Moon-rock taste better than an Earth-rock?",
-    "punchline": "Because it's a little meteor."
+    "punchline": "Because it\'s a little meteor."
   },
   {
     "id": 373,
     "type": "general",
     "setup": "Why does it take longer to get from 1st to 2nd base, than it does to get from 2nd to 3rd base?",
-    "punchline": "Because there’s a Shortstop in between!"
+    "punchline": "Because there\'s a Shortstop in between!"
   },
   {
     "id": 374,
@@ -2199,6 +2201,6 @@
     "id": 376,
     "type": "general",
     "setup": "Why does Waldo only wear stripes?",
-    "punchline": "Because he doesn't want to be spotted."
+    "punchline": "Because he doesn\'t want to be spotted."
   }
 ]
