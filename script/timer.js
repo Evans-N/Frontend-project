@@ -51,18 +51,12 @@ const timer = () => {
     var timeOut;
     
     var antirepeat = () =>{
-        clearTimeout(timeOut);
         antiRepeat= true;
         console.log(`hi`)
+        clearTimeout(timeOut);
+
     }
-    var timeFunc = () =>{
-        $jokeContainer.addClass('hidden')
-        antiRepeat=true;
-    }
-    
-    var timeOut = () => setTimeout(timeFunc,6000)
-                
-    
+    $(`#newJokeButton`).on('click',antirepeat);
     console.log(`check here$5}`)
     if((getMM(timerPast)[0] % 5 === 0 )&&getSS(timerPast)[0] == 0) { garyAlert();console.log(`it worked`)} else{console.log(`no`)};
     
@@ -88,7 +82,21 @@ const timer = () => {
         var ss = msecSS[0];
         msec = msecSS[1];
         
-        timePast = `${hh}:${mm}:${ss}`
+        var timeArray = [hh,mm,ss]
+        let fixedTime = [];
+
+        timeArray.forEach((val)=>{
+            if (val.toString().length == 1){
+                val = `0${val}`
+                // console.log(newVal)
+            }
+            fixedTime.push(val)
+        })
+
+
+        console.log(fixedTime)
+
+        timePast = `${fixedTime[0]}:${fixedTime[1]}:${fixedTime[2]}`
     }
     
     if(antiRepeat==true){
@@ -97,10 +105,13 @@ const timer = () => {
         if($jokeContainer.hasClass(`hidden`)) {
             
         }else{
-            $(`#newJokeButton`).on('click',antirepeat);
             antiRepeat = false
             console.log(antiRepeat)
-            timeOut();
+            timeOut = setTimeout(function(){
+                $jokeContainer.addClass('hidden')
+                antiRepeat=true;
+            },6000)
+
         }  
     }
     
