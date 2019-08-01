@@ -1,39 +1,71 @@
-var mm=1;
-var timePast;
+var timerPast;
+var startUpMsgTxt = $(`#jokeCont`).html();
+var antiRepeat= true; 
+
+const startUpMsg = () => {
+    let $jokeContainer = $(`#jokeCont`);
+    
+    $jokeContainer.removeClass('hidden')
+    setTimeout(()=>{
+        $jokeContainer.addClass('hidden')
+    },6000)
+}
+startUpMsg();
+
+const getHH = (msec) => {
+    var hh = Math.floor(msec / 1000 / 60 / 60);
+        msec -= hh * 1000 * 60 * 60;
+        return [hh,msec];
+}
+const getMM = (msecH) => {
+    let msec = getHH(msecH)[1]
+    var mm = Math.floor(msec / 1000 / 60);
+        msec -= mm * 1000 * 60;
+        console.log(mm)
+        return [mm,msec];
+}
+const getSS = (msecM) => {
+    let msec = getMM(msecM)[1];
+    var ss = Math.floor(msec / 1000);
+        msec -= ss * 1000;
+        return[ss,msec]
+}
+
 
 const garyAlert = () => {
-    $jokeContainer = $(`#jokeCont`)
-    let prevMessage = $jokeContainer.html()
+    let $jokeContainer = $(`#jokeCont`)
+    let $jokeBox = $(`#jokeBox`)
+    
     $jokeContainer.removeClass('hidden')
     
-    if (timePast !== `0:0:0`) {
-        $jokeContainer.html(`Hello you've been on this page for ${mm} minutes...`)
-        setTimeout(() => {
-            if(prevMessage === ``){
-                
-            }else{
-                $jokeContainer.html(prevMessage)
-            }
-        },6000)
-        
-        if($jokeContainer.html()==prevMessage){
-            $jokeContainer.html(prevMessage) 
-        }
-        
-    }else{
-        $jokeContainer.html(`Welcome to the page!`)
-        setTimeout(() => {
-                $jokeContainer.addClass('hidden')
-        },6000)
-    }
+    $jokeBox.html(`Hello you've been on this page for ${getMM(timerPast)[0]+(getHH(timerPast)[0]*60)} minutes...`)         
+    
 }
+
 const timer = () => {
+    let $jokeContainer = $(`#jokeCont`)
     
     var currentTime = new Date().getTime();
     let startTime = JSON.parse(sessionStorage.getItem(`startTime`))
+    let timePast;
+    var timeOut;
     
-    if((mm%5 === 0||mm==0)) {garyAlert()} else{console.log(`hi`)};
-
+    var antirepeat = () =>{
+        clearTimeout(timeOut);
+        antiRepeat= true;
+        console.log(`hi`)
+    }
+    var timeFunc = () =>{
+        $jokeContainer.addClass('hidden')
+        antiRepeat=true;
+    }
+    
+    var timeOut = () => setTimeout(timeFunc,6000)
+                
+    
+    console.log(`check here$5}`)
+    if((getMM(timerPast)[0] % 5 === 0 )&&getSS(timerPast)[0] == 0) { garyAlert();console.log(`it worked`)} else{console.log(`no`)};
+    
     if(startTime == null){
         
         sessionStorage.setItem(`startTime`, JSON.stringify(currentTime))
@@ -41,26 +73,46 @@ const timer = () => {
         let startTime = JSON.parse(sessionStorage.getItem(`startTime`))
         
         
-        let timerPast = currentTime - startTime;
+        timerPast = currentTime - startTime;
         
         console.log(timerPast)
         var msec = timerPast;
         
-        var hh = Math.floor(msec / 1000 / 60 / 60);
-        msec -= hh * 1000 * 60 * 60;
-        mm = Math.floor(msec / 1000 / 60);
-        msec -= mm * 1000 * 60;
-        var ss = Math.floor(msec / 1000);
-        msec -= ss * 1000;
-
+        var hh = getHH(msec)[0];
+        
+        
+        var mm = getMM(msec)[0];
+        
+        
+        let msecSS = getSS(msec);
+        var ss = msecSS[0];
+        msec = msecSS[1];
+        
         timePast = `${hh}:${mm}:${ss}`
     }
+    
+    if(antiRepeat==true){
+        
+        
+        if($jokeContainer.hasClass(`hidden`)) {
+            
+        }else{
+            $(`#newJokeButton`).on('click',antirepeat);
+            antiRepeat = false
+            console.log(antiRepeat)
+            timeOut();
+        }  
+    }
+    
+    
+    
     console.log(`mm:${mm}`)
     $(`#timer`).html(timePast)
     return timePast;
 }
 timer()
 setInterval(() => { console.log(timer()); }, 1000);
+
 
 
 
