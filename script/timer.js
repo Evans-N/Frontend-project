@@ -38,7 +38,8 @@ const garyAlert = () => {
     
     $jokeContainer.removeClass('hidden')
     
-    $jokeBox.html(`Hello you've been on this page for ${getMM(timerPast)[0]+(getHH(timerPast)[0]*60)} minutes...`)         
+    $jokeBox.html(`Hey Bud! What are you still doing here!?`) 
+    // `Hello you've been on this page for ${getMM(timerPast)[0]+(getHH(timerPast)[0]*60)} minutes...`)        
     
 }
 
