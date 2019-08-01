@@ -53,7 +53,7 @@ const start = (e)=> {
         $('.result').on('click', function (event) {
             console.log(correctCount);
             $('.result').hide()
-            $('.results').html(`${correctCount}`)
+            $('.results').html(`You got ${correctCount} out of 10 this time!`)
             $('.results').show()
             })
         $('.next').on('click', function (event) {

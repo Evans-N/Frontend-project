@@ -1,10 +1,17 @@
 :root{
-    box-sizing: border-box;
-*,*::before, *::after{
+    box-sizing: border-box;}
+* , *::before, *::after{
     box-sizing: inherit;
 }
 body {
     background-color: #CEDADD;
+}
+.logoBox {
+    width: 40%;
+}
+.logoI {
+ max-width: 100%;
+ height: auto;
 }
 .hover-underline-menu {
     width: 100%;
@@ -79,8 +86,35 @@ header {
     height: 60vh;
     width: 80%;
     align-self: center;
-    border: 10px solid #FC9653;
-    border-radius: 10px;
     margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: none;
 }
 
+.triviaTile {
+    width: 45%;
+    height: auto;
+    border: 5px solid #FC9653;
+    border-radius: 5px;
+}
+.quoteTile {
+    width: 45%;
+    height: auto;
+    border: 5px solid #FC9653;
+    border-radius: 5px;
+}
+.triviaPic{
+    max-width: 100%;
+}
+.quotePic{
+    max-width: 100%;
+}
+.contentH1 {
+    width:100%;
+    text-align: center
+}
+
+  
