@@ -88,6 +88,7 @@ header {
 .container{
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
     border: 1px solid black;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,22 +96,44 @@ header {
     width: 100%;
     height: 100%;
 }
-.container{
-    display: flex;
-    align-items: flex-end;
-}
+
 .quoteContainer{
     display: flex;
     flex-wrap: wrap;
+    margin-right: 5%;
     align-items: flex-end;
     width: 40%;
 
 }
-.get-quote{
-    display: block;
-
+.get-quote {
+    animation:bouncy 5s infinite linear;
+    position:relative;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: 3.2px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: capitalize;
+    border-radius: 15%;
 }
+@keyframes bouncy {
+    0%{top:0em}
+    40%{top:0em}
+    43%{top:-0.9em}
+    46%{top:0em}
+    48%{top:-0.4em}
+    50%{top:0em}
+    100%{top:0em;}
+}
+
 .quote{
     display: block;
     min-width: 100%;
+    margin-bottom: 2%;
+    padding: 5%;
+    box-shadow: 2px 2px 7px 1px #000000;
 }
