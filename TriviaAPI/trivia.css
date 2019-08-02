@@ -1,3 +1,4 @@
+
 :root{
     box-sizing: border-box;
 }
@@ -112,17 +113,34 @@ header {
 }
 .answers {
     list-style: none;    
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     justify-content: center;
     padding-left: 0px;
 }
 .answers li{
-    min-width: 40%;
-    max-width: 40%;
+    width:100%;
     border: 3px solid #FC9653;
     border-radius: 5px;
     font-size: 2rem;
     padding: 1%;
     margin: .5%;
+}
+@media only screen and (min-width: 768px) {
+    .answers {
+        list-style: none;    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0px;
+    }
+    .answers li{
+        min-width: 40%;
+        max-width: 40%;
+        border: 3px solid #FC9653;
+        border-radius: 5px;
+        font-size: 2rem;
+        padding: 1%;
+        margin: .5%;
+    }
 }
