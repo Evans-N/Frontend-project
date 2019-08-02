@@ -113,6 +113,7 @@ header {
     position: relative;
     z-index: 5;
 }
+
 .profileContainer{
   display: flex;
   justify-content: center;
