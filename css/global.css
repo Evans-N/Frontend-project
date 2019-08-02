@@ -1,51 +1,56 @@
 .modal{
-    order: 4;
     display:flex;
-    position: fixed;
-    top: 75%;
-    left:85%;
     justify-content: flex-end;
-    border: 1px solid black;
-    /* padding: 10rem; */
+    position: fixed;
+    top: 57%;
+    left:70%;
+    height: 40%;
+    width:30%;
+    z-index: 2;
 }
 
 .textBubbleContainer{
     
-    display: flex;
-    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    bottom: 8rem;
-    left:  4rem;
     border-radius: 50%;
-    /* z-index: 9; */
-    padding: 2rem;
+    padding: 12%;
     background-image: url("../HTMLimages/bubble.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size:contain;
-    
-    max-width: 20vw;
-    width: auto;
-    
+    max-width: 70%;
+    height: 70%;
+    position: relative;
+    left: 13%;
+    bottom: 20%
+
 }
 .textBubbleContainer.hidden{
-    
     display: none;
     
 }
 
   .textbox{
-      position: relative;
-      /* right: .5rem;
-      top: .5rem; */
-      height: auto;
-      /* padding: 2rem; */
-      padding-bottom: .25rem;
-        text-align: center;
+    height: auto;
+    text-align: center;
+    font-size: 1.25vw;
+    max-width: 125%;
+
   }
   .garyCont{
-      position: fixed;
-      z-index: 5;
+      top: 65%;
+      left: 82%;
+      width: 30%;
+      height: 100%;
+      display: flex;
+      align-items: flex-end
+
+  }
+  .gary {
+      height: 65%;
+      width: auto;
   }
 
