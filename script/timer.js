@@ -124,6 +124,8 @@ const timer = () => {
 }
 timer()
 setInterval(() => { console.log(timer()); }, 1000);
+let randPage = Math.floor((Math.random() * 2) + 1);
+
 
 
 
