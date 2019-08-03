@@ -96,9 +96,9 @@ padding: 0rem 2.5rem;
     justify-content: flex-end;
     position: fixed;
     top: 57%;
-    left:70%;
+    right:20px;
     height: 40%;
-    width:30%;
+    width:400px;
     z-index: 2;
 }
 
@@ -109,7 +109,7 @@ padding: 0rem 2.5rem;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    padding: 12%;
+    padding: 10%;
     background-image: url("../HTMLimages/bubble.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -129,13 +129,12 @@ padding: 0rem 2.5rem;
   .textbox{
     height: auto;
     text-align: center;
-    font-size: 1.25vw;
+    font-size: 15px;
     max-width: 125%;
 
   }
   .garyCont{
-      top: 65%;
-      left: 82%;
+      
       width: 30%;
       height: 100%;
       display: flex;
@@ -143,6 +142,8 @@ padding: 0rem 2.5rem;
 
   }
   .gary {
+      position: relative;
+      /* right: 40px; */
       height: 65%;
       width: auto;
   }
@@ -153,6 +154,11 @@ padding: 0rem 2.5rem;
     * , *::before, *::after{
         box-sizing: inherit;
     }
+    .textbox{
+        
+        font-size: 1.25vw;
+    
+      }
     body {
         background-color: #CEDADD;
     }
