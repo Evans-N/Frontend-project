@@ -22,12 +22,15 @@
     height: auto;
 }
 .pokeSearchBar {
+    position: relative;
+    z-index: 10;
     display: flex;
     height: 2vh;
     width: 80%;
 }
 .pokeSearchBarinput {
     flex-grow: 1;
+    
     /* height: 100px; */
 }
 
@@ -35,7 +38,9 @@
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
-    width: 80%
+    width: 80%;
+    position: relative;
+    z-index: 10;
 }
 .pokemonIdentify {
     margin-top: 20px;
