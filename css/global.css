@@ -189,7 +189,7 @@ padding: 0rem 2.5rem;
     .hover-underline-menu .menu .underline-from-center::after {
     content: "";
     position: absolute;
-    top: calc(100% - 0.125rem);
+    top: 75%;
     border-bottom: 0.125rem solid #FC9653;
     left: 50%;
     right: 50%;
