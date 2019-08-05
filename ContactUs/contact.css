@@ -1,0 +1,43 @@
+.contactPic {
+    height: auto;
+    width:50%;
+    border-radius: 10px;
+}
+.contact-us-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #536B78;
+    border-radius: 20px;
+    padding:5px;
+    width:90%;
+    height: 50%;
+    box-shadow: 2px 2px 7px 1px #000000;
+    margin: auto;
+
+}
+.email {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 0% 5%;
+
+}
+.emailLink{
+    width:25%;
+    height: 25%;
+    z-index: 0;
+    align-self: flex-start;
+    align-content: flex-start;
+
+}
+.emailPic{
+    width:100%;
+    z-index: 0;
+}
+h2 {
+    font-size: 3vw;
+}

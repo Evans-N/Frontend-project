@@ -36,7 +36,7 @@ function checkPokeNext() {
                 xhr.addEventListener("readystatechange", readyState)
             }else {
                 
-                pokeList = sortList();
+                // pokeList = sortList();
                 
                 function getPokemon(index) {
                     var list = [];
