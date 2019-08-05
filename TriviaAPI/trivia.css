@@ -1,7 +1,7 @@
 
 .content {
-    height: 60vh;
     width: 80%;
+    padding: 5%;
     align-self: center;
     border: 10px solid #FC9653;
     border-radius: 10px;
