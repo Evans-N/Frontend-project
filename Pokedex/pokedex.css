@@ -1,0 +1,46 @@
+.content {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 1%
+}
+
+.pokeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    width: 80%;
+    background-color: white;
+}
+
+.pokemonIcon {
+    border: solid;
+    flex-grow: 1;
+    height: auto;
+}
+.pokeSearchBar {
+    display: flex;
+    height: 2vh;
+    width: 80%;
+}
+.pokeSearchBarinput {
+    flex-grow: 1;
+    /* height: 100px; */
+}
+
+.buttonContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%
+}
+.pokemonIdentify {
+    margin-top: 20px;
+    background-color: white;
+    height: 40vh;
+    width: 80%;
+}
+
