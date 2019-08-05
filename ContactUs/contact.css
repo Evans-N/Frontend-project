@@ -29,13 +29,14 @@
 .emailLink{
     width:25%;
     height: 25%;
-    z-index: 1;
+    z-index: 0;
     align-self: flex-start;
     align-content: flex-start;
 
 }
 .emailPic{
     width:100%;
+    z-index: 0;
 }
 h2 {
     font-size: 3vw;
