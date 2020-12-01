@@ -13,7 +13,7 @@ const generator = quoteGenerator();
 
 function updateQuote() {
 	generator.next().value.then(function (data) {
-		quoteOutput.innerHTML = `"${data[0]}"`;
+		quoteOutput.innerHTML = `"${data[1]}"`;
 		quoteButton.disabled = false;
 	});
 }
